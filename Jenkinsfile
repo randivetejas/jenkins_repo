@@ -10,7 +10,7 @@ pipeline{
         stage('Run Python Script'){
             steps{
                 script{
-                    sh 'python test.py'
+                    sh 'python3 test.py'
                 }
             }
         }
